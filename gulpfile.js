@@ -22,10 +22,10 @@ gulp.task("copyfiles", function() {
     gulp.src("vendor/bower_dl/bootstrap/dist/fonts/**")
         .pipe(gulp.dest("public/assets/fonts"));
 
-    gulp.src("vendor/bower_dl/fontawesome/less/**")
+    gulp.src("vendor/bower_dl/font-awesome/less/**")
         .pipe(gulp.dest("resources/assets/less/fontawesome"));
 
-    gulp.src("vendor/bower_dl/fontawesome/fonts/**")
+    gulp.src("vendor/bower_dl/font-awesome/fonts/**")
         .pipe(gulp.dest("public/assets/fonts"));
 
     // Copy datatables
